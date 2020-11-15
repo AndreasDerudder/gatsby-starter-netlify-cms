@@ -1,21 +1,33 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+title: Welkom!
+image: /img/ohana_triatlon_image_team_150x.png
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: We zijn een triatlon team met een 40-tal leden Uit de regio De Haan,
+  Zuienkerke, Blankenberge, Brugge, Varsenare, Jabbeke, ...
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: GEZELLIGHEID TROEF
+  description: >-
+    Naast het sportieve, zijn we ook gewoon een gezellige bende vrienden met het
+    hart op de juiste plaats:
+
+    Verbroederingsritten met bevriende clubs
+
+    Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
+
+    Steunen van sociale projecten
+
+    Fin de Saison BBQ
+
+    Jaarlijkse verkoop van OHANA artisanaal gerookte zalm
+
+    Culinaire nieuwjaarsreceptie met hapjes van Chef triatleet Jo Nelissen
+
+    En we werken aan een eigen OHANA triatlon tegen 2022 ! Onze eerste try-out is op 13/09/2020
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 intro:
   blurbs:
     - image: /img/coffee.png
