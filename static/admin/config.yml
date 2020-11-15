@@ -27,6 +27,16 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "page"
+    label: "Pages"
+    files:
+      - file: "static/admin/index.html"
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
+
+
   - name: "pages"
     label: "Pages"
     files:
