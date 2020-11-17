@@ -12,6 +12,31 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "coding"
+    label: "Coding"
+    folder: "src/pages/coding"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - {label: "Path", name: "path"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  - name: training
+    label: Training
+    folder: "src/pages/training"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Publish Date, widget: datetime }
+      - { label: Description, name: description, widget: text }
+      - { label: Image, name: image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
