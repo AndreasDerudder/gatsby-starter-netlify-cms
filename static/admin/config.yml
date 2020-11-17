@@ -30,7 +30,6 @@ collections:
     create: true
     slug: "{{year}}-{{slug}}"
     fields:
-      - { name: path, label: Path }
       - { name: title, label: Title, widget: string }
       - { name: date, label: Publish Date, widget: datetime }
       - { label: Description, name: description, widget: text }
