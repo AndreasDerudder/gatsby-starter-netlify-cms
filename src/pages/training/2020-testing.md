@@ -1,4 +1,5 @@
 ---
+templateKey: training-post
 path: /training/fitness
 title: Testing
 date: 2020-11-17T15:18:45.517Z
