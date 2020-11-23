@@ -5,6 +5,14 @@ import logo from '../img/logo.svg'
 import { signIn } from '../components/Login'
 import { navigate, Router } from '@reach/router'
 
+const isAuthenticated = () => {
+    if (typeof window !== 'undefined') {
+        return localStorage.getItem('isAuthenticated') === 'true';
+    } else {
+        return false;
+    }
+};
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -65,6 +73,13 @@ const Navbar = class extends React.Component {
     }
 
   render() {
+        let username;
+      if (!isAuthenticated()) {
+          username = <p><Link to='/account'>Login</Link></p>
+      }else {
+          username = <p>Welcome, {this.state.user}. <button onClick={this.logout}>Logout</button></p>
+      }
+
     return (
       <nav
         className="navbar is-transparent"
@@ -116,7 +131,7 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
               <div className="navbar-item">
-                    <p>Welcome, {this.state.user}. <button onClick={this.logout}>Logout</button></p>
+                  {username}
               </div>
               <a
                 className="navbar-item"

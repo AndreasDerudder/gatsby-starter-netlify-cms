@@ -26,7 +26,6 @@ class Account extends React.Component {
         const token = await signIn.authClient.tokenManager.get('idToken');
         if (token) {
             this.setState({user: token.claims.name});
-            navigate('/');
         } else {
             // Token has expired
             this.setState({user: false});
@@ -40,7 +39,9 @@ class Account extends React.Component {
         }).then(() => {
             localStorage.setItem('isAuthenticated', 'false');
             this.setState({user: false});
-            navigate('/');
+            //navigate('/');
+
+            console.log(this.state);
         });
     }
 
