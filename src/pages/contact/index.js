@@ -106,8 +106,21 @@ export default class Index extends React.Component {
                   </button>
                 </div>
               </form>
+
+
+                <h1>Inforamtion</h1>
+              <div className="field ml-4">
+                  <h4>Sports & Co</h4>
+                  <p>Rijselstraat 5, 8200 Sint-Michiels, België</p>
+                  <p><a href="https://zen-hugle-db847b.netlify.app">Sports&Co.com</a></p>
+              </div>
+               <div className="field ml-4">
+                 <h4>Eigenaars:</h4>
+                 <p>Bryan Helsens - tel +32 495 62 25 36</p>
+                 <p>Andreas Derudder - tel +32 495 62 25 37</p>
+               </div>
+              </div>
             </div>
-          </div>
         </section>
       </Layout>
     )
