@@ -1,68 +1,51 @@
 ---
 templateKey: index-page
-title: Welkom!
+title: Sports & Co
 image: /img/ohana_triatlon_image_team_150x.png
-heading: Great coffee with a conscience
+heading: GEZELLIGHEID TROEF
 subheading: We zijn een triatlon team met een 40-tal leden Uit de regio De Haan,
   Zuienkerke, Blankenberge, Brugge, Varsenare, Jabbeke, ...
 mainpitch:
-  title: GEZELLIGHEID TROEF
+  title: WELKOM
   description: >-
-    Naast het sportieve, zijn we ook gewoon een gezellige bende vrienden met het
-    hart op de juiste plaats:
+    Sports & Co is een relatief nieuwe sportclub die actief is bij verschillende
+    soorten sporten.
 
-    Verbroederingsritten met bevriende clubs
+    We zwemmen in het Wielingen zwembad in Wenduine & LAGO in Brugge en in de Sint-Pieters plas in Brugge
 
-    Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
+    We lopen in De Haan (bos & strand) en op de piste in Blankenberge.
 
-    Steunen van sociale projecten
+    We fietsen met vertrekpunt Stalhille brug (80km) en tijdens de winter (afhankelijk van het weer) met de mountainbike in De Haan en omstreken.
 
-    Fin de Saison BBQ
-
-    Jaarlijkse verkoop van OHANA artisanaal gerookte zalm
-
-    Culinaire nieuwjaarsreceptie met hapjes van Chef triatleet Jo Nelissen
-
-    En we werken aan een eigen OHANA triatlon tegen 2022 ! Onze eerste try-out is op 13/09/2020
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+    En super belangrijk we hebben ook een wekelijkse Core Stability training. 
+description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
+  vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
+  clubs Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
+  Steunen van sociale projecten Fin de Saison BBQ Jaarlijkse verkoop van OHANA
+  artisanaal gerookte zalm Culinaire nieuwjaarsreceptie met hapjes van Chef
+  triatleet Jo Nelissen En we werken aan een eigen OHANA triatlon tegen 2022 !
+  Onze eerste try-out is op 13/09/2020 "
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/home-jumbotron.jpg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Elke dinsdag avond van 17uur tot 20uur kunt u komen trainen op onze
+        loopbaan met professionele coaches.
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: Voor de leden die geen zin hebben om alleen te gaan fietsen organiseren
+        wij elke zaterdag middag een fietstocht. Tijdens de winter zal dit
+        afhankelijk zijn van het weer.
     - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+      text: "Elke donderdag avond van 17uur tot 20uur is ons zwembad open, hier kunnen
+        alle leden samen met professionele coaches trainen op allerlei
+        zwemsporten. "
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+        Onze fitness centrum is elke dag open van 8uur tot 22uur. Alle leden
+        kunnen hier gratis gaan sporten om zo hun conditie te verbeteren of
+        spiermassa te gaan te creëren.
+  heading: dfsqdf
+  description: sfqsdf
 main:
   heading: Great coffee with no compromises
   description: >
