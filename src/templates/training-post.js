@@ -12,6 +12,7 @@ export const TrainingPostTemplate = ({
                                      description,
                                      tags,
                                      title,
+                                         image,
                                      helmet,
                                  }) => {
     const PostContent = contentComponent || Content
@@ -25,6 +26,8 @@ export const TrainingPostTemplate = ({
                         <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
                             {title}
                         </h1>
+
+
                         <p>{description}</p>
                         <PostContent content={content} />
                         {tags && tags.length ? (

@@ -7,7 +7,7 @@ class TrainingRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
-
+      console.log(posts);
     return (
       <div className="columns is-multiline">
         {posts &&
@@ -43,7 +43,8 @@ class TrainingRoll extends React.Component {
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
+
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
@@ -57,6 +58,7 @@ class TrainingRoll extends React.Component {
     )
   }
 }
+
 
 TrainingRoll.propTypes = {
   data: PropTypes.shape({
@@ -84,6 +86,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                description
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {
