@@ -1,7 +1,6 @@
 ---
 templateKey: index-page
 title: Sports & Co
-image: /img/ohana_triatlon_image_team_150x.png
 heading: GEZELLIGHEID TROEF
 subheading: We zijn een triatlon team met een 40-tal leden Uit de regio De Haan,
   Zuienkerke, Blankenberge, Brugge, Varsenare, Jabbeke, ...
@@ -18,32 +17,29 @@ mainpitch:
     We fietsen met vertrekpunt Stalhille brug (80km) en tijdens de winter (afhankelijk van het weer) met de mountainbike in De Haan en omstreken.
 
     En super belangrijk we hebben ook een wekelijkse Core Stability training. 
-description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
-  vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
-  clubs Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
-  Steunen van sociale projecten Fin de Saison BBQ Jaarlijkse verkoop van OHANA
-  artisanaal gerookte zalm Culinaire nieuwjaarsreceptie met hapjes van Chef
-  triatleet Jo Nelissen En we werken aan een eigen OHANA triatlon tegen 2022 !
-  Onze eerste try-out is op 13/09/2020 "
 intro:
   blurbs:
     - image: /img/home-jumbotron.jpg
       text: >
         Elke dinsdag avond van 17uur tot 20uur kunt u komen trainen op onze
         loopbaan met professionele coaches.
-    - image: /img/coffee-gear.png
+      title: Lopen
+    - image: /img/8dcc2a62-5ef1-11ea-88d6-ab11eb09920d.jpg
       text: Voor de leden die geen zin hebben om alleen te gaan fietsen organiseren
         wij elke zaterdag middag een fietstocht. Tijdens de winter zal dit
         afhankelijk zijn van het weer.
-    - image: /img/tutorials.png
+      title: Fietsen/Mountainbike
+    - image: /img/zwem.jpg
       text: "Elke donderdag avond van 17uur tot 20uur is ons zwembad open, hier kunnen
         alle leden samen met professionele coaches trainen op allerlei
         zwemsporten. "
-    - image: /img/meeting-space.png
+      title: Zwemmen
+    - image: /img/fitness.jpg
       text: >
         Onze fitness centrum is elke dag open van 8uur tot 22uur. Alle leden
         kunnen hier gratis gaan sporten om zo hun conditie te verbeteren of
         spiermassa te gaan te creëren.
+      title: Fitness
   heading: dfsqdf
   description: sfqsdf
 main:
@@ -62,4 +58,12 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/ohana_triatlon_image_team_150x.png
+description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
+  vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
+  clubs Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
+  Steunen van sociale projecten Fin de Saison BBQ Jaarlijkse verkoop van OHANA
+  artisanaal gerookte zalm Culinaire nieuwjaarsreceptie met hapjes van Chef
+  triatleet Jo Nelissen En we werken aan een eigen OHANA triatlon tegen 2022 !
+  Onze eerste try-out is op 13/09/2020 "
 ---
