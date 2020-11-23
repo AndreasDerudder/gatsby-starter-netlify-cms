@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import { signIn } from '../components/Login'
+import { navigate, Router } from '@reach/router'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -9,13 +11,18 @@ const Navbar = class extends React.Component {
     this.state = {
       active: false,
       navBarActiveClass: '',
+      user: false,
     }
+
+    this.logout = this.logout.bind(this);
+
+    console.log(this.state);
   }
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
-      {
+        {
         active: !this.state.active,
       },
       // after state has been updated,
@@ -30,7 +37,32 @@ const Navbar = class extends React.Component {
             })
       }
     )
+
+      console.log(this.state);
   }
+
+
+    async componentDidMount() {
+        const token = await signIn.authClient.tokenManager.get('idToken');
+        if (token) {
+            this.setState({user: token.claims.name});
+            console.log(this.state)
+        } else {
+            // Token has expired
+            this.setState({user: false});
+            localStorage.setItem('isAuthenticated', 'false');
+        }
+    }
+
+    logout() {
+        signIn.authClient.signOut().catch((error) => {
+            console.error('Sign out error: ' + error)
+        }).then(() => {
+            localStorage.setItem('isAuthenticated', 'false');
+            this.setState({user: false});
+            navigate('/');
+        });
+    }
 
   render() {
     return (
@@ -83,6 +115,9 @@ const Navbar = class extends React.Component {
                 </Link>
             </div>
             <div className="navbar-end has-text-centered">
+              <div className="navbar-item">
+                    <p>Welcome, {this.state.user}. <button onClick={this.logout}>Logout</button></p>
+              </div>
               <a
                 className="navbar-item"
                 href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
