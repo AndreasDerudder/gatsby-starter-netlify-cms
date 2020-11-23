@@ -9,14 +9,10 @@ mainpitch:
   title: WELKOM
   description: >-
     Sports & Co is een relatief nieuwe sportclub die actief is bij verschillende
-    soorten sporten.
-
+    soorten sporten. 
     We zwemmen in het Wielingen zwembad in Wenduine & LAGO in Brugge en in de Sint-Pieters plas in Brugge
-
     We lopen in De Haan (bos & strand) en op de piste in Blankenberge.
-
     We fietsen met vertrekpunt Stalhille brug (80km) en tijdens de winter (afhankelijk van het weer) met de mountainbike in De Haan en omstreken.
-
     En super belangrijk we hebben ook een wekelijkse Core Stability training. 
 description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
   vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
@@ -44,22 +40,4 @@ intro:
         Onze fitness centrum is elke dag open van 8uur tot 22uur. Alle leden
         kunnen hier gratis gaan sporten om zo hun conditie te verbeteren of
         spiermassa te gaan te creëren.
-  heading: dfsqdf
-  description: sfqsdf
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
