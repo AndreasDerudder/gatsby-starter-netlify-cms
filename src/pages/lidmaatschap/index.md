@@ -1,42 +1,52 @@
 ---
-heading: Sports & Co - lidgeld Seizoen 2020 - 2021 (vanaf 1 oktober 2020)
+heading: Lidgeld Seizoen 2020 - 2021
 path: /lidmaatschap
 templateKey: lidmaatschap-page
 title: Lidmaatschap
 image: /img/lidmaatschap.jpg
-description: Sports & Co - lidgeld Seizoen 2020 - 2021 (vanaf 1 oktober 2020)
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: Kaldi is the place to go if you want the best quality coffee. I love
-      their stance on empowering farmers and transparency.
+description: U kunt lid worden vanaf 1 oktober 2020
 pricing:
-  heading: Monthly subscriptions
-  description: We make it easy to make great coffee a part of your life. Choose
-    one of our monthly subscription plans to receive great coffee at your
-    doorstep each month. Contact us about more details and payment info.
+  heading: Maandlijkse abonnementen
+  description: We maken u het gemakkelijk om lid te worden van een sportclub en in
+    conditie te blijven. Kies een van onze maandelijkse abonnementen om elke
+    maand toegang te krijgen tot sportcentrums. Neem contact met ons op voor
+    meer details en betalingsinformatie.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Met dit abonnement krijgt u toegang tot
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
+        - de fitness
+        - het zwembad
+        - de loopbaan
+        - fiets/mountainbike circuit
+      plan: Lidgeld(studenten)
       price: "50"
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+    - description: Met dit abonnement krijgt u toegang tot
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
+        - de fitness
+        - het zwembad
+        - de loopbaan
+        - fiets/mountainbike circuit
+      plan: Lidgeld(volwassenen)
       price: "80"
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+    - description: Met dit abonnement krijgt u toegang tot
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
+        - de fitness
+        - het zwembad
+        - de loopbaan
+        - fiets/mountainbike circuit
+        - daarnaast kunt u ook gecoached worden door onze professionele coaches
       plan: Custom
-      price: ??
+      price: "120"
+testimonials:
+  - author: Amber Ansaelens
+    quote: Dit is zeker een aanraden. Ik ben heel tevreden over het custom
+      abonnement. Je wordt goed geholpen en de coaches voorzien een passend
+      schema.
+    heading: Positief
+  - author: Philipp Trommler
+    quote: Ik ben al 3 jaar lid van deze sportclub en heb me nog niet beklaagd da ik
+      ben overgestapt. De coaches staan altijd klaar voor je en leveren goede
+      feedback. Daarnaast zien alle sportcenters er verzorgt uit en bevatten
+      alle machines die u nodig heeft voor een goede workout. :)
+    heading: Zeer tevreden
 ---
