@@ -1,5 +1,5 @@
 import React from 'react'
-import {navigate, Router} from '@reach/router'
+import {Router} from '@reach/router'
 import {Link} from 'gatsby'
 import Login, {signIn} from '../components/Login'
 
