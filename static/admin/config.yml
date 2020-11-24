@@ -20,10 +20,11 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "training-post"}
       - { name: title, label: Title, widget: string }
-      - { name: date, label: Publish Date, widget: datetime }
       - { label: Description, name: description, widget: text }
+      - { name: date, label: Publish Date, widget: datetime }
       - { label: Image, name: image, widget: image }
-      - { name: body, label: Body, widget: markdown }
+      - {label: Schema, name: Schema, widget: object, fields: [{label: Days, name: days, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Oefening, name: oefening, widget: object, fields:[{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, { label: OefeningImage, name: oefeningimage, widget: image, required: false}]}]}]}
+      - { label: "Tags", name: "tags", widget: "list"}
 
   - name: "blog"
     label: "Blog"
@@ -55,17 +56,6 @@ collections:
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}]}]}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
       - file: "src/pages/lidmaatschap/index.md"
         label: "Lidmaatschap Page"
         name: "lidmaatschap"
