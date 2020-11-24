@@ -12,10 +12,7 @@ export const ProductPageTemplate = ({
   title,
   heading,
   description,
-  intro,
-  main,
   testimonials,
-  fullImage,
   pricing,
 }) => (
   <div className="content">
