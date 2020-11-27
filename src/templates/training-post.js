@@ -14,10 +14,12 @@ export const TrainingPostTemplate = ({
                                      tags,
                                      title,
                                          image,
-                                    schema,
+
                                      helmet,
+                                         schema,
                                  }) => {
     const PostContent = contentComponent || Content
+    console.log("schema")
     console.log(schema);
     return (
         <section className="section">
@@ -81,12 +83,13 @@ TrainingPostTemplate.propTypes = {
             description: PropTypes.string,
             oefeningimage: PropTypes.object,
 
-        })
+        }),
     }),
 };
 
 const TrainingPost = ({ data }) => {
     const { markdownRemark: post } = data;
+    console.log("markdownremark")
     console.log(post.frontmatter);
 
     return (
@@ -137,23 +140,9 @@ export const pageQuery = graphql`
                 }
               }
             }
-       
-        schema{
-            days{
-                heading
-                oefening{
-                    title
-                    description
-                      oefeningimage {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-                }
-            }
-        }
+            
+            
+
         tags
       }
     }

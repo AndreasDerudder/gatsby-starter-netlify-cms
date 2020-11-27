@@ -12,19 +12,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: training
-    label: Training
-    folder: "src/pages/training"
-    create: true
-    slug: "{{year}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "training-post"}
-      - { name: title, label: Title, widget: string }
-      - { label: Description, name: description, widget: text }
-      - { name: date, label: Publish Date, widget: datetime }
-      - { label: Image, name: image, widget: image }
-      - {label: Schema, name: Schema, widget: object, fields: [{label: Days, name: days, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Oefening, name: oefening, widget: object, fields:[{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, { label: OefeningImage, name: oefeningimage, widget: image, required: false}]}]}]}
-      - { label: "Tags", name: "tags", widget: "list"}
 
   - name: "blog"
     label: "Blog"
@@ -67,3 +54,22 @@ collections:
           - {label: Description, name: description, widget: string}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+      - name: training
+        label: Training
+        folder: "src/pages/training"
+        create: true
+        slug: "{{year}}-{{slug}}"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "training-post"}
+          - { name: title, label: Title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { name: date, label: Publish Date, widget: datetime }
+          - { label: Image, name: image, widget: image }
+          - { label: Schema, name: schema, widget: object, fields:
+                        [{label: Days, name: days, widget: list, fields:
+                                  [{label: Heading, name: heading, widget: string}, {label: Oefening, name: oefening, widget: list, fields:
+                                          [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, { label: OefeningImage, name: oefeningimage, widget: image, required: false}]
+                                  }]
+                        }]
+            }
+          - { label: "Tags", name: "tags", widget: "list"}
