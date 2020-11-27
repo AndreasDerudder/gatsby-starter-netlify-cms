@@ -34,7 +34,7 @@ export const TrainingPostTemplate = ({
                     }}
                 >
                 <div className="columns">
-                    <div className="column is-8 is-offset-1">
+                    <div className="column is-3 is-offset-1">
                         <h1 className="has-text-weight-bold is-size-1"
                             style={{
                                 boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
@@ -77,15 +77,9 @@ TrainingPostTemplate.propTypes = {
     title: PropTypes.string,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     helmet: PropTypes.object,
-    schema: PropTypes.shape({
-        days: PropTypes.shape({
-            title: PropTypes.string,
-            description: PropTypes.string,
-            oefeningimage: PropTypes.object,
-
-        }),
-    }),
+    schema: PropTypes.object,
 };
+
 
 const TrainingPost = ({ data }) => {
     const { markdownRemark: post } = data;
@@ -109,6 +103,7 @@ const TrainingPost = ({ data }) => {
                     </Helmet>
                 }
                 schema={post.frontmatter.schema}
+                days={post.frontmatter.schema.days}
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
             />
@@ -133,6 +128,19 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        schema{
+            days{
+                heading
+                oefening{
+                    title
+                    description
+                 
+                }
+            }
+        }
+        
+        
+        
         image{
             childImageSharp {
                 fluid(maxWidth: 240, quality: 100) {
@@ -141,7 +149,7 @@ export const pageQuery = graphql`
               }
             }
             
-            
+          
 
         tags
       }

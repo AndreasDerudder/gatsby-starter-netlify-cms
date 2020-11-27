@@ -7,7 +7,7 @@ import PreviewCompatibleImage from "./PreviewCompatibleImage";
 const SchemaGrid = ({ gridItems }) => (
     <div className="columns">
         <h3>Schema</h3>
-        {console.log(gridItems)}
+        {console.log(gridItems.days)}
         {gridItems.map((item) => (
             <div key={item.heading} className="column">
                 <section className="section">
@@ -15,14 +15,20 @@ const SchemaGrid = ({ gridItems }) => (
                         {item.heading}
                     </h4>
                     <hr/>
-                    <ul style={{ 'list-style-type': 'none' }}>
+                    <ul style={{
+                        listStyleType: 'none',
+                    }}>
                         {console.log(item.oefening)}
                         {item.oefening.map((oefeningen, k) => (
-                            <li key={k} style={{ 'margin-bottom': '50%', 'margin-left': '-30px' }}>
+                            <li key={k}
+                                style={{
+                                    marginBottom: '50%',
+                                    marginLeft: '-30px',
+                                }}>
                                 <h2>{oefeningen.title}</h2>
                                 <p>{oefeningen.description}</p>
 
-                                <PreviewCompatibleImage imageInfo={oefeningen.oefeningimage} />
+
                             </li>
                         ))}
                     </ul>
