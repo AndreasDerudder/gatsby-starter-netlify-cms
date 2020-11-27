@@ -19,7 +19,6 @@ export const TrainingPostTemplate = ({
                                          schema,
                                  }) => {
     const PostContent = contentComponent || Content
-    console.log("schema")
     console.log(schema);
     return (
         <section className="section">
@@ -49,8 +48,9 @@ export const TrainingPostTemplate = ({
                 </div>
 
                         <p>{description}</p>
-
-                        <Schema gridItems={schema.days} />
+                        {schema.map((schemaItem) => (
+                            <Schema gridItems={schemaItem.days} />
+                        ))}
 
                         {tags && tags.length ? (
                             <div style={{ marginTop: `4rem` }}>
@@ -77,7 +77,7 @@ TrainingPostTemplate.propTypes = {
     title: PropTypes.string,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     helmet: PropTypes.object,
-    schema: PropTypes.object,
+    schema: PropTypes.array,
 };
 
 

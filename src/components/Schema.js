@@ -1,13 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 
 
 const SchemaGrid = ({ gridItems }) => (
     <div className="columns">
         <h3>Schema</h3>
-        {console.log(gridItems.days)}
         {gridItems.map((item) => (
             <div key={item.heading} className="column">
                 <section className="section">
@@ -22,7 +20,7 @@ const SchemaGrid = ({ gridItems }) => (
                         {item.oefening.map((oefeningen, k) => (
                             <li key={k}
                                 style={{
-                                    marginBottom: '50%',
+                                    marginBottom: '10%',
                                     marginLeft: '-30px',
                                 }}>
                                 <h2>{oefeningen.title}</h2>
