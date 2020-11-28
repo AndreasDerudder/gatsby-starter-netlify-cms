@@ -21,8 +21,10 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundSize: 'contain',
+          backgroundColor: "black",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'top',
       }}
     >
       <div
@@ -31,6 +33,7 @@ export const IndexPageTemplate = ({
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
+            marginTop: '180px',
           alignItems: 'left',
           flexDirection: 'column',
         }}
@@ -39,11 +42,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(255, 0, 0) 0.5rem 0px 0px, rgb(255, 0, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 0, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+              textAlign: 'center',
           }}
         >
           {title}
@@ -52,11 +56,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(255, 0, 0) 0.5rem 0px 0px, rgb(255, 0, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 0, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+              textAlign: 'center',
           }}
         >
           {subheading}

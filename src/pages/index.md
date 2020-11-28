@@ -34,7 +34,7 @@ intro:
         kunnen hier gratis gaan sporten om zo hun conditie te verbeteren of
         spiermassa te gaan te creëren.
       title: Fitness
-image: /img/ohana_triatlon_image_team_150x.png
+image: /img/logo.png
 description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
   vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
   clubs Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
