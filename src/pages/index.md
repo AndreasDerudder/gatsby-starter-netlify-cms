@@ -1,21 +1,20 @@
 ---
 templateKey: index-page
 title: Sports & Co
+image: /img/logo.png
 heading: GEZELLIGHEID TROEF
-subheading: We zijn een triatlon team met een 40-tal leden Uit de regio De Haan,
+subheading: We zijn een sportclub met een 20-tal leden Uit de regio De Haan,
   Zuienkerke, Blankenberge, Brugge, Varsenare, Jabbeke, ...
 mainpitch:
   title: WELKOM
-  description: >-
-    Sports & Co is een relatief nieuwe sportclub die actief is bij verschillende
-    soorten sporten. 
-    We zwemmen in het Wielingen zwembad in Wenduine & LAGO in Brugge en in de Sint-Pieters plas in Brugge
-    We lopen in De Haan (bos & strand) en op de piste in Blankenberge.
-    We fietsen met vertrekpunt Stalhille brug (80km) en tijdens de winter (afhankelijk van het weer) met de mountainbike in De Haan en omstreken.
-    En super belangrijk we hebben ook een wekelijkse Core Stability training. 
+  description: "Sports & Co is een relatief nieuwe sportclub die actief is in
+    verschillende soorten sporten. "
+description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
+  vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
+  clubs Infoavonden over sportvoeding, fietsonderhoud, een top triatleet. "
 intro:
   blurbs:
-    - image: /img/home-jumbotron.jpg
+    - image: /img/lopen.jpg
       text: Elke dinsdag avond van 17uur tot 20uur kunt u komen trainen op onze
         loopbaan met professionele coaches.
       title: Lopen
@@ -34,12 +33,4 @@ intro:
         kunnen hier gratis gaan sporten om zo hun conditie te verbeteren of
         spiermassa te gaan te creëren.
       title: Fitness
-image: /img/logo.png
-description: "Naast het sportieve, zijn we ook gewoon een gezellige bende
-  vrienden met het hart op de juiste plaats: Verbroederingsritten met bevriende
-  clubs Infoavonden over sportvoeding, fietsonderhoud, een top triatleet, ...
-  Steunen van sociale projecten Fin de Saison BBQ Jaarlijkse verkoop van OHANA
-  artisanaal gerookte zalm Culinaire nieuwjaarsreceptie met hapjes van Chef
-  triatleet Jo Nelissen En we werken aan een eigen OHANA triatlon tegen 2022 !
-  Onze eerste try-out is op 13/09/2020 "
 ---
