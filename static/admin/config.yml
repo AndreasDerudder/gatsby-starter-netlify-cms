@@ -26,7 +26,9 @@ collections:
       - { label: Schema, name: schema, widget: list, fields:
         [{label: Days, name: days, widget: list, fields:
         [{label: Heading, name: heading, widget: string}, {label: Oefening, name: oefening, widget: list, fields:
-        [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, { label: OefeningImage, name: oefeningimage, widget: image, required: false}]}]}]}
+        [{label: Title, name: title, widget: string},
+          {label: Description, name: description, widget: text},
+          { label: OefeningImage, name: oefeningimage, widget: image, required: false}]}]}]}
       - { label: "Tags", name: "tags", widget: "list"}
 
 
